@@ -15,7 +15,7 @@ Update 2021/5/11
 
 Through trial and error, I found something new about this error.
 
-· `<Dib> </ div>` is valid but `<div />` is not
+· `<div> </ div>` is valid but `<div />` is not
 
 ・ The depth of nesting does not matter
 
