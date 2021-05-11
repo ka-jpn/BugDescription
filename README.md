@@ -11,6 +11,9 @@ Update 2021/5/11
 根本的なことでは、私が「`<div />`は有効ではない」ことを知らなかったのが原因のようです。
 しかし@on{DOM EVENT}="{DELEGATE}"構文を使用していない場合はエラーが出ず、使用しているとエラーが出るのは原因が分かりにくい要因でした。
 
+私のプロジェクトでは、`<div  ～～　/>`をサイズと色を伴った領域として使用しようとしていました。
+`<label  ～～　/>`に変更することでエラーは発生しなくなりました。
+
 [English : not my native language, cannot guarantee the accuracy of the meaning]
 
 Through trial and error, I found something new about this error.
@@ -21,6 +24,9 @@ Through trial and error, I found something new about this error.
 
 The root cause seems to be that I didn't know that "` <div /> `is not valid".
 However, if you didn't use the @on {DOM EVENT} = "{DELEGATE}" syntax, wouldn't get an error, and if did, would get an error. the cause was hard to understand.
+
+In my project I was trying to use `<div ~~ />` as an area with size and color.
+By changing to `<label ~~ />`, the error no longer occurs.
 
 [↓ old contents]
 
